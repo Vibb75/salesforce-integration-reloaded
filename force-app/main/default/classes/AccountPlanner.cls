@@ -6,6 +6,7 @@
  * @last modified by  : Amit Singh - PantherSchools
 **/
 global with sharing class AccountPlanner {
+system.debug();
 
     webservice static String helloWorld(String name){
         return 'Hello ' + name + '!';
